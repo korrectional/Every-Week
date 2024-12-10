@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "EvilTyper",
+    "version": "1.0",
+    "description": "Use this extenction to make copy pasted text look like it was typed out (for situations when your teacher can see your progress in typing).",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "background"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon.png"
+      }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
+  
