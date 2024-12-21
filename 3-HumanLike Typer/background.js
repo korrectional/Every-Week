@@ -38,8 +38,11 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
                             {
                                 document.activeElement.value += "    ";
                             } else {
-                                document.activeElement.value = document.activeElement.value.slice(0, -2);
-                                document.activeElement.value += text[index] + "  ";
+                                if(codehs)
+                                {
+                                    document.activeElement.value = document.activeElement.value.slice(0, -2);
+                                    document.activeElement.value += text[index] + "  ";     
+                                }
                             }
                             document.activeElement.dispatchEvent(event);
                             index++;
