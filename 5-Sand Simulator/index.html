@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Canvas</title>
+        <style>
+            #menu
+            {
+                transform: scale(0.2);
+                position: absolute;
+                top: -25px;
+                left: -65px;
+                background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+                border: 0px solid #ccc; /* Subtle border */
+                padding: 5px; /* Spacing inside the menu */
+                border-radius: 2px; /* Rounded corners */
+                z-index: 10; /* Makes sure it's above the canvas */
+            }
+            #container
+            {
+                position: relative; /* Ensures positioning context for children */
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                transform-origin: top left;
+
+                transform: scale(5);
+                overflow: hidden;
+
+                
+            }
+            canvas {
+
+                display: block;
+                image-rendering: pixelated; 
+            }
+        </style>
+    </head>
+</html>
+<body>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+        <menu id="menu">
+            <button id="sand">Sand</button>
+            <button id="water">Water</button>
+            <button id="void">Eraser</button>
+            
+        </menu>
+
+
+    </div>
+    <script src="src/canvas.js"></script>
+
+</body>
+</html>

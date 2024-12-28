@@ -14,6 +14,9 @@ var scale = height/2 - height/20;
 var offsetx = width/8;
 var centerx = width/2;
 var centery = height/2;
+
+var lastT = Date.now();
+
 function calculate(){
     if(target == "center"){
         scale = scale + t;
@@ -40,26 +43,40 @@ function calculate(){
     }
     c.putImageData(myImageData, 0, 0);
     t *= 1.1;
+    last = minimum; 
+    minimum = 100;
+
+    // show """framerate"""
+    //console.log(Date.now()-lastT);
+    //lastT = Date.now();
 }
 
 
-
+var minimum = 0;
+var last = minimum;
 
 function Mandelbrot(x,y){
 
-    var cx = x; var cy = y;
-    var n = 0;
-    while(n<100){
-        var aa = x*x - y*y;
-        var bb = 2*x*y;
+    var cx = x, cy = y, n = 0;
+    var xSquared = x * x, ySquared = y * y;
+    
+    while (n < 100) {
+        var aa = xSquared - ySquared;
+        var bb = 2 * x * y;
         x = aa + cx;
         y = bb + cy;
-        if(Math.abs(x + y) > 16){
+        xSquared = x * x;
+        ySquared = y * y;
+
+        if (xSquared + ySquared > 256) { // Replacing `Math.abs(x + y) > 16` with faster `xSquared + ySquared > 256`
             break;
         }
+
         n++;
     }
-    return n/100 * 255;
+
+    minimum = Math.min(minimum, n);
+    return (n-last)/(100-last) * 255;
 }
 
 
