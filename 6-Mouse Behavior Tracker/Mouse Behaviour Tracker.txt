@@ -1,0 +1,7 @@
+Forgot to do EW last week! (X_X)
+
+To use this
+
+Server: do  npm dev run  inside userTracker_server, and then navigate to SERVERADRESS/static/visual.html to see the saved user mouse positions
+
+Client: add heater.tsx to your react project and just run heater() inside your main page
