@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://bmq5i5lbgr6ah"]
+
+[ext_resource type="Script" path="res://scripts/bomb.gd" id="1_c01ve"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_di6b0"]
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_r4yqs"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:scale")
+properties/1/spawn = true
+properties/1/replication_mode = 1
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tv5hm"]
+radius = 1.0
+
+[node name="bomb" type="Node2D"]
+script = ExtResource("1_c01ve")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+modulate = Color(0.911332, 0.065232, 0.0391654, 1)
+position = Vector2(0, 1.19209e-07)
+scale = Vector2(2.00227, 2)
+mesh = SubResource("SphereMesh_di6b0")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_r4yqs")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("CircleShape2D_tv5hm")
