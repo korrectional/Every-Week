@@ -25,3 +25,7 @@ Little script for arduino device that plays a little alarm/ringtone each time so
 
 <img src="9-Door%20Movement%20Alarm/scheme.jpg" alt='"scheme"' width="300">
 <img src="9-Door%20Movement%20Alarm/in-action.jpg" alt='how its placed' width="300">
+
+# 10-Operating System Kernel
+Small kernel. 2 years ago I tried to do that and I failed, this is my comeback.
+This one only prints 'A' into video memory. I plan to continue this project in its own repo
