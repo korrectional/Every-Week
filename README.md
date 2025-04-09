@@ -41,3 +41,9 @@ Small kernel. 2 years ago I tried to do that and I failed, this is my comeback. 
 A couple small shell scripts I wrote as a local substitute to git while working on the week 10 project. While this was in the same week as the previous, I felt that I haven't had EW projects for so much time that I needed to drop 2 at once. The way it works is from a device you can either override the project version in the server or get the server version of the project. This allows to seamelessly work in a project in the same network with different devices. Nothing special really. Don't forget to create a .env file to store the password and adress of the server device.
 
 <img src="11-Local%20Cloud/server.jpg" alt='had this guy laying around so he became my server' width="200">
+
+<br/>
+<br>
+
+# 12-Web Scrapper
+Simple python scripts that enters a website, scraps all the text (in my case, to feed a neural network) and looks for all the URLs and visits those tho, eventually going though all the public URLs in the website and taking all the juicy training material
