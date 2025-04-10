@@ -5,3 +5,5 @@
 /7-Multiplayer Game/release
 10-Operating System Kernel/.env
 11-Local Cloud/.env
+13-Language Model/model.pkl
+13-Language Model/scrap.txt
