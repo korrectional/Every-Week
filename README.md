@@ -55,3 +55,9 @@ Simple python scripts that enters a website, scraps all the text (in my case, to
 A little language model that I created as a proof of concept (to myself). To run, you first need to run the scrapper (which extracts a bunch of text from wikipedia) and depending on how long you run it, you'll get a more complex model. Then train it with ```train.py``` and run with with ```run.py [first word] [second word] [number of words to generate]```. Note that that combination of two words has to exist inside your database (scrap.txt) in order for it to work. Don't worry though: when I had scrap.txt at ~25mb (and model at ~80mb) it could easily find most combinations of general words, stuff like "located in", "please do", "agreed to" and "wanted to". Have fun!
 
 <img src="13-Language%20Model/wikai.png" alt='example' width="500">
+
+<br/>
+<br>
+
+# 14-Spotify Playlist Downloader
+A simple, stupid and difficult to use program for directly downloading full spotify playlists that I made for my dad, as I couldn't find similar software.
