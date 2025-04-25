@@ -61,3 +61,19 @@ A little language model that I created as a proof of concept (to myself). To run
 
 # 14-Spotify Playlist Downloader
 A simple, stupid and difficult to use program for directly downloading full spotify playlists that I made for my dad, as I couldn't find similar software.
+
+
+<br/>
+<br>
+
+
+# 15-Smallest Executable
+I tried following the procedure of Inkbox to create a really small executable file. While mine is much bigger than what he managed to do, Its still quite little and can fit into a QR code! Just a note: most of the binary is literally blank zero areas, which occupy 80% of the space. There is a way ~kind of~ to get rid of some of them by writing a custom PE and using crinkler, but I failed on that part (-_-)
+
+Also, this took an crazy long amount of time.
+
+
+<img src="15-Smallest%20Executable/qrcode.png" alt='qr code' width="200">
+
+<br/>
+<br>
