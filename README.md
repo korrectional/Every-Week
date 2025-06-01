@@ -77,3 +77,14 @@ Also, this took an crazy long amount of time.
 
 <br/>
 <br>
+
+
+
+# 16-MC Bot
+Stupid minecraft bot that has exactly 3 commands: "come" and it walks up to you, "collect X_BLOCK" and it neverendingly looks and collects that type of block, and "stop" (it's a mistery command). This is my shitty comeback to EW, been too busy attempting to build a processor.
+
+
+<img src="16-MC%20Bot/mcbot.png" alt='mc bot' width="500">
+
+<br/>
+<br>

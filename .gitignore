@@ -7,3 +7,6 @@
 11-Local Cloud/.env
 13-Language Model/model.pkl
 13-Language Model/scrap.txt
+
+
+**/node_modules/
