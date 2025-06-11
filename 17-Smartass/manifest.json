@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Smartass",
+    "version": "1.0",
+    "description": "abc",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "background",
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [
+    {
+      "matches": ["https://HAHA YOU WISH ID TELL YOU.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon.png"
+      }
+    }
+}
+  

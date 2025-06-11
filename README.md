@@ -86,5 +86,21 @@ Stupid minecraft bot that has exactly 3 commands: "come" and it walks up to you,
 
 <img src="16-MC%20Bot/mcbot.png" alt='mc bot' width="500">
 
+That poor robot making a hole for me
 <br/>
+<br>
+<br>
+
+
+
+
+
+# 17-Smartass
+I accidentally happened to make another unethical tool for students to bypass education (like HumanTyper). It's not even that I'm lazy. It's a stupid website my teacher uses, and it so happens to make us solve around 130 questions each week AFTER reading the whole material. That website is evil and has no consideration for students. To vent it out I just made a proof of concept tool that completely solves everything while the student does something healthy, like eat avocado. I just hope one day online classes won't suck because of some stupid programmers who don't give a shit about students. 
+
+
+<img src="17-Smartass/icon.png" alt='avocado' width="300">
+<br/>
+the actual logo
+<br>
 <br>
