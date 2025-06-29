@@ -104,3 +104,12 @@ I accidentally happened to make another unethical tool for students to bypass ed
 the actual logo
 <br>
 <br>
+
+
+
+# 18-Lazers
+I was watching the theory of the big bang and I liked the idea of lazers. So I went on to learn a couple new things: the vector reflection formula, parametric equations and Bresenham's line drawing algorithm (to display the lines). This project took a bit too long (sat there till 4AM in order to have time to do homework today), but the nice thing is that I not only learned how to reflect vectors, but also some 2D physics stuff. PickEngine and MtckEngine both use a system that I created last year (not saying its original, I just happened to come up with it cuz its so simple) to detect collisions, and it has big limitations, specifically that collision boxes can't be rotated in any way. This new one actually allows for much more flexibility, and is one of the first steps in writing a good 2D physics engine. Also, used SDL3 instead of SDL2 (evolution!). In order to run this, you will need to put the SDL3 binaries, lib and includes in this format: third_party/SDL3/(lib||bin||include). 
+
+<img src="18-Lazers/lazers.png" alt='lazers' width="300">
+<br/>
+<br>
