@@ -113,3 +113,13 @@ I was watching the theory of the big bang and I liked the idea of lazers. So I w
 <img src="18-Lazers/lazers.png" alt='lazers' width="300">
 <br/>
 <br>
+
+
+
+
+# 19-GoChain
+After a long time without EW (or practically any coding) here I am. While browsing the great internet, I happened to stuble upon the Go language, that I happened to want to learn for a while now. Nice syntax, anyway I made a simple blockchain. It uses the same Proof-of-Work algorith as Bitcoin, by making the miner attempt to hash the previous block hash with a number (nonce) as many times as possible until it finds a number that has a certain amount of zeroes at the start. I use 20 zeroes - in bits, so visually its 5 bytes - (more will hurt my computer). And no, I will not throw my coin into the already existing endless hole of shitcoins our internet has become.
+
+<img src="19-GoChain/blockchain.png" alt='bc' width="500">
+<br/>
+<br>
