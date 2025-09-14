@@ -120,6 +120,15 @@ I was watching the theory of the big bang and I liked the idea of lazers. So I w
 # 19-GoChain
 After a long time without EW (or practically any coding) here I am. While browsing the great internet, I happened to stuble upon the Go language, that I happened to want to learn for a while now. Nice syntax, anyway I made a simple blockchain. It uses the same Proof-of-Work algorith as Bitcoin, by making the miner attempt to hash the previous block hash with a number (nonce) as many times as possible until it finds a number that has a certain amount of zeroes at the start. I use 20 zeroes - in bits, so visually its 5 bytes - (more will hurt my computer). And no, I will not throw my coin into the already existing endless hole of shitcoins our internet has become.
 
-<img src="19-GoChain/blockchain.png" alt='bc' width="500">
+<img src="19-GoChain/blockchain.png" alt='bc' width="400">
+<br/>
+<br>
+
+
+
+# 20-555PCB
+I was watching a video by FluxBench (who happens to have an extremelly AI-like voice) and saw that he was using EasyEDA to make a PCB. Since I've seen people use that software before (although I did not know the name) I decided to try it out. Found out about a starter project called "555 blinker" which involves using a 555 chip (something like a controllable oscilator) to make a LED blink. Sadly the pins sort of confused me so I ended up spending an unconfortable amount of time looking at the "example usage" section of the TL documentation (the specific chip I used is called LM555). Now it's designed, and I love the 3d representation. And now, ofc I won't be ordering the PCB and soldering it because 1. It costs money 2. The components cost money 3. I don't have a soldering iron (it costs money). It was fun though, Ill make sure to design and actually get a pcb for a future project 
+
+<img src="20-555PCB/pcb.png" alt='pcb' width="300">
 <br/>
 <br>

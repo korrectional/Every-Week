@@ -1,0 +1,258 @@
+{
+  "uuid": "24e33819ea3ba620caa4920a2acd1be7",
+  "path": "Offline/555%20blinker%20led",
+  "name": "555 blinker led",
+  "content": "",
+  "created_at": "2025-09-13 13:09:34",
+  "updated_at": "2025-09-13 21:29:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d14598fca5043766f6ad462364449dfd",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2bd396a66f584274895b1d1f16dec8cd": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 3,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "ac2f52dbb8caa49b9e29a6586269ffc6": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.01uF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470uf",
+          1,
+          "C0603",
+          "C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C49661"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Button-SMD-4.5x4.5x4.8",
+          1,
+          "SW-SMD_4P-L4.5-W4.5-P3.00-LS7.0",
+          "SW2",
+          {
+            "Manufacturer Part": "4.5*4.5*4.8 Plastic head,260G, 0.25mm,SMD",
+            "Manufacturer": "BBJ",
+            "Supplier": "LCSC",
+            "Supplier Part": "C71850"
+          }
+        ],
+        [
+          "LM555CN",
+          1,
+          "DIP-8_L9.7-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Manufacturer Part": "LM555CN",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C110322"
+          }
+        ]
+      ],
+      "updateTime": 1757813354,
+      "createTime": 1757783375,
+      "histories": [],
+      "created_at": "2025-09-13 13:09:35",
+      "updated_at": "2025-09-13 21:29:14"
+    },
+    {
+      "uuid": "dfb97f94a2c4f37989fe3bd37bb5b924",
+      "puuid": "24e33819ea3ba620caa4920a2acd1be7",
+      "title": "PCB_555 blinker led",
+      "filename": "PCB_555 blinker led.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1b989131e981494a86139d8bf3b15fd9": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 1,
+        "26ddc6f916344af197d04f4724b10b8a": 1,
+        "398691f1f785460098bbe5ee6590333c": 3,
+        "f8151fdc728a41ebbc304e11d39e5437": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.01uF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470uf",
+          1,
+          "C0603",
+          "C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Button-SMD-4.5x4.5x4.8",
+          1,
+          "SW-SMD_4P-L4.5-W4.5-P3.00-LS7.0",
+          "SW1",
+          {
+            "Manufacturer Part": "4.5*4.5*4.8 Plastic head,260G, 0.25mm,SMD",
+            "Manufacturer": "BBJ",
+            "Supplier": "LCSC",
+            "Supplier Part": "C71850"
+          }
+        ],
+        [
+          "LM555CN",
+          1,
+          "DIP-8_L9.7-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Manufacturer Part": "LM555CN",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C110322"
+          }
+        ]
+      ],
+      "updateTime": 1757813397,
+      "createTime": 1757800370,
+      "histories": [],
+      "created_at": "2025-09-13 17:52:50",
+      "updated_at": "2025-09-13 21:29:57"
+    }
+  ],
+  "sort": [],
+  "title": "555 blinker led",
+  "foldername": "555 blinker led",
+  "schfilename": "555 blinker led.json",
+  "schfilemtime": 1757813354407
+}
