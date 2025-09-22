@@ -11,6 +11,11 @@ Here's information on some of the projects
 <br>
 <br>
 
+# 1-7
+I didn't care about the README till p.n. 8, so here's a quick rundown of those first 7: 0-HTML Canvas test, 1-A-Star Pathfinder, 2-AI image classifier, 3-Extenction that fakes human input (for a certain website), 4-Mandelbrot renderer, 5-Physics simulator, 6-Mouse behavior tracker, 7-Multiplayer clicker
+<br/>
+<br>
+
 # 8-ASCII Camera
 This takes in the information from the camera (using ```cv2```) and transforms it into ASCII art, realtime. (check out [this repo where I improved the cam and added some features](https://github.com/korrectional/ASCII-Camera))
 ### To run: ```python main.py```
@@ -130,5 +135,14 @@ After a long time without EW (or practically any coding) here I am. While browsi
 I was watching a video by FluxBench (who happens to have an extremelly AI-like voice) and saw that he was using EasyEDA to make a PCB. Since I've seen people use that software before (although I did not know the name) I decided to try it out. Found out about a starter project called "555 blinker" which involves using a 555 chip (something like a controllable oscilator) to make a LED blink. Sadly the pins sort of confused me so I ended up spending an unconfortable amount of time looking at the "example usage" section of the TL documentation (the specific chip I used is called LM555). Now it's designed, and I love the 3d representation. And now, ofc I won't be ordering the PCB and soldering it because 1. It costs money 2. The components cost money 3. I don't have a soldering iron (it costs money). It was fun though, Ill make sure to design and actually get a pcb for a future project 
 
 <img src="20-555PCB/pcb.png" alt='pcb' width="300">
+<br/>
+<br>
+
+
+
+# 21-ESPLCD
+At 1AM last month, I robbed a friend from his 1602a LCD (who was about to depart for SCAD). It layed around for (guess what, a month) until I found a task for it: make a device that gives out the information of the nearest airplane. Haha sounds like a cool project and no, I did not do it (I'm still working on it; I'm new to esp-idf so this took longuer than expected). Anyway, I opened the docs for 1602a and did the Ben Eater thing: didn't use a library, instead engaged in direct communication. Took a second, (and for some reason everything displayed on the char table is shown in this order: 1452356789...) which is sort of weird and either a stupid error or an actual, quite cool, manufacturing defect. To run, do ```pio project init --board esp32dev --project-option="framework=espidf" --ide vscode``` then ```pio run --target upload```
+
+<img src="21-ESPLCD/lcd.jpg" alt='lcd' width="300">
 <br/>
 <br>
