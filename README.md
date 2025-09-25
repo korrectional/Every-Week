@@ -146,3 +146,11 @@ At 1AM last month, I robbed a friend from his 1602a LCD (who was about to depart
 <img src="21-ESPLCD/lcd.jpg" alt='lcd' width="300">
 <br/>
 <br>
+
+
+# 22-DavidMC
+This morning I realized that to lead a purposeful senior year I must work on an operating system... for the third time (maybe now I'll succeed). And so I made a discord bot that tells us (the folk at the AKGD server) how many are currently online in our minecraft server. You just have to say my name! Useful for me cuz I hate playing on our server by myself, and it takes like 5 min for my minecraft to load.
+
+<img src="22-DavidMC/bot.png" alt='bot' width="300">
+<br/>
+<br>
