@@ -104,7 +104,7 @@ That poor robot making a hole for me
 I accidentally happened to make another unethical tool for students to bypass education (like HumanTyper). It's not even that I'm lazy. It's a stupid website my teacher uses, and it so happens to make us solve around 130 questions each week AFTER reading the whole material. That website is evil and has no consideration for students. To vent it out I just made a proof of concept tool that completely solves everything while the student does something healthy, like eat avocado. I just hope one day online classes won't suck because of some stupid programmers who don't give a shit about students. 
 
 
-<img src="17-Smartass/icon.png" alt='avocado' width="300">
+<img src="17-Smartass/icon.png" alt='avocado' width="200">
 <br/>
 the actual logo
 <br>
@@ -153,4 +153,12 @@ This morning I realized that to lead a purposeful senior year I must work on an 
 
 <img src="22-DavidMC/bot.png" alt='bot' width="300">
 <br/>
+<br>
+
+# 23-FlappyAI
+Recently had an idea of making a neural network that would predict short term stock market prices. While probably an unachievable goal, I decided to get some practice with machine learning so I went on to make flappy bird, with an AI that would learn to play it (the former without any libraries like pytorch). It looked easier on the youtube videos I saw: implementing took a whole day, and the neural network was stupid, learned like shit. Maximum it can do is around ~9 points until it messes up. Codebullet must have done something that I did not. Either way, this project wasn't very fun (at least on the neural network part), but in most part because that type of organic programming is new land for me.
+
+<img src="23-FlappyAI/flappyAI.png" alt='bot' width="200">
+<br/>
+Yes I know, it looks like a samsung store knockoff
 <br>
